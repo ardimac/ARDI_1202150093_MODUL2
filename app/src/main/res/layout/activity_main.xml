@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.example.airys.ardi_1202150093_modul2.main">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ekspedia"
+            tools:layout_editor_absoluteX="140dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:text="Pilih Menu :" />
+
+        <RadioGroup
+            android:id="@+id/rb_group"
+            android:layout_marginLeft="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rb_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView"
+                android:layout_alignRight="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="14dp"
+                android:text="Dine In" />
+
+            <RadioButton
+                android:id="@+id/rb_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioButton"
+                android:layout_alignStart="@+id/radioButton"
+                android:layout_below="@+id/radioButton"
+                android:text="Take Away" />
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/b_pesan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioButton2"
+            android:layout_centerHorizontal="true"
+            android:text="Pesan Sekarang"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="25dp"
+            android:onClick="pesan"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

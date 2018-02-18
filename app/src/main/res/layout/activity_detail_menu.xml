@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.airys.ardi_1202150093_modul2.MENU.DetailMenu">
+
+
+    <TextView
+        android:id="@+id/id_detailmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="nasi wagyu"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageButton
+        android:id="@+id/id_detailimage"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ekspedia"/>
+
+    <TextView
+        android:id="@+id/id_detailharga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="RP. 3000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="komposisi : "
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Nasi, daging , telur" />
+
+</LinearLayout>

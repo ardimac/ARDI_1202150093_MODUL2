@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ARDI_1202150093_MODUL2</string>
+    <string-array name="array">
+        <item>Pilih Meja</item>
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+    </string-array>
+</resources>
